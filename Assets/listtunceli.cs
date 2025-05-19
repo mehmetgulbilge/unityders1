@@ -25,6 +25,18 @@ public class listtunceli : MonoBehaviour
         {
             Debug.Log(isim);
         }
+
+        if (isimler.Contains("Murat"))
+        {
+            Debug.Log("Murat var");
+        }
+        else
+        {
+            Debug.Log("Murat yok");
+        }
+
+        isimler.Clear();
+        Debug.Log(isimler.Count);
     }
 
     // Update is called once per frame
