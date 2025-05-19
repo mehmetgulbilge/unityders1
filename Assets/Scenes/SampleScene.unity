@@ -407,7 +407,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832575517}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
@@ -553,9 +553,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2136597458}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3a83115836744bad9435893cbbd9149, type: 3}
+  m_Script: {fileID: 11500000, guid: d0ba3bb2344f34fb9a6ecf5ecf2f9f71, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::switchtunceli
+  m_EditorClassIdentifier: Assembly-CSharp::listtunceli
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
