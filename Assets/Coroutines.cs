@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Publicmethodlar : MonoBehaviour
 {
@@ -10,14 +11,14 @@ public class Publicmethodlar : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        birincicoroutine = Denemem(2);
+        birincicoroutine = Denemem(1);
         StartCoroutine(birincicoroutine);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
             StopCoroutine(birincicoroutine);
         }
@@ -29,7 +30,13 @@ public class Publicmethodlar : MonoBehaviour
         {
             Debug.Log("İlk yazdırmam");
             yield return new WaitForSeconds(saniyem);
-            Debug.Log("İkinci yazdırmam");
+            StartCoroutine(Bensonradanoldum());
         }
+    }
+
+    IEnumerator Bensonradanoldum()
+    {
+        Debug.Log("Ben sonradan oldum");
+        yield return null;
     }
 }

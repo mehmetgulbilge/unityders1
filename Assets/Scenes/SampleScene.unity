@@ -443,8 +443,8 @@ GameObject:
   - component: {fileID: 2136597462}
   - component: {fileID: 2136597461}
   - component: {fileID: 2136597460}
-  - component: {fileID: 2136597459}
   - component: {fileID: 2136597463}
+  - component: {fileID: 2136597459}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -554,9 +554,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2136597458}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c31bd8e8a65064541ae23514d1b9c7c1, type: 3}
+  m_Script: {fileID: 11500000, guid: a8e7a2a4d4c5346c18063c36ae438a1e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Publicmethodlar
+  m_EditorClassIdentifier: Assembly-CSharp::InvokeMethod
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
