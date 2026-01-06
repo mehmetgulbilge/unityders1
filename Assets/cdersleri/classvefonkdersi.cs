@@ -1,19 +1,18 @@
-using UnityEngine;
 using namespacem;
+using UnityEngine;
 
 public class classvefonkdersi : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Start()
     {
         // namespacem.Okul
-        Okul okul = new Okul();
+        var okul = new Okul();
         okul.getOkulAdi();
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-
     }
 }
