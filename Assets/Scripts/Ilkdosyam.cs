@@ -17,6 +17,13 @@ public class Ilkdosyam : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
+        GetComponentInChildren<AudioSource>().mute = true;
+        GetComponentInChildren<Rigidbody>().mass = 3f;
+        // GetComponentInParent<AudioSource>().mute = true;
+        // GetComponentInParent<Rigidbody>().mass = 3f;
+    }
+    /*private void Start()
+    {
         Capsulum = GetComponent<CapsuleCollider>();
 
         Capsulum.enabled = false;
@@ -25,7 +32,7 @@ public class Ilkdosyam : MonoBehaviour
 
         var capsullerim = GetComponents<CapsuleCollider>();
         foreach (var capsulum in capsullerim) capsulum.enabled = false;
-    }
+    }*/
 
     // Update is called once per frame
     private void Update()
