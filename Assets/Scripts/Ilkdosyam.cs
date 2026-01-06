@@ -17,8 +17,8 @@ public class Ilkdosyam : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
-        GetComponentInChildren<AudioSource>().mute = true;
-        GetComponentInChildren<Rigidbody>().mass = 3f;
+        // GetComponentInChildren<AudioSource>().mute = true;
+        // GetComponentInChildren<Rigidbody>().mass = 3f;
         // GetComponentInParent<AudioSource>().mute = true;
         // GetComponentInParent<Rigidbody>().mass = 3f;
     }

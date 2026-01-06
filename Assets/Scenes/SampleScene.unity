@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 201083920}
   - component: {fileID: 201083921}
+  - component: {fileID: 201083923}
   - component: {fileID: 201083922}
   m_Layer: 0
   m_Name: Ana
@@ -187,7 +188,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 201083919}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b935500b94e9b4f139bf3fcc0df7eca6, type: 3}
   m_Name: 
@@ -198,6 +199,18 @@ MonoBehaviour:
   ArabaVarMi: 0
   cocuklar: []
   babalar: []
+--- !u!114 &201083923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201083919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc871d2270404c7eb7fc57a0fe063de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjeYakalama
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,7 +440,7 @@ Transform:
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 7.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -474,8 +487,8 @@ GameObject:
   - component: {fileID: 559001221}
   m_Layer: 0
   m_Name: Cocuk
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_TagString: Player
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -655,7 +668,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587019473}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b935500b94e9b4f139bf3fcc0df7eca6, type: 3}
   m_Name: 
@@ -731,7 +744,7 @@ GameObject:
   - component: {fileID: 1039000355}
   m_Layer: 5
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1027,6 +1040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1643395186}
   - component: {fileID: 1643395187}
+  - component: {fileID: 1643395188}
   m_Layer: 0
   m_Name: Scriptim
   m_TagString: Untagged
@@ -1067,6 +1081,18 @@ MonoBehaviour:
   ArabaVarMi: 0
   cocuklar: []
   babalar: []
+--- !u!114 &1643395188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643395185}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc871d2270404c7eb7fc57a0fe063de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
