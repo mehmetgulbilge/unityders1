@@ -758,6 +758,7 @@ GameObject:
   - component: {fileID: 1039000350}
   - component: {fileID: 1039000349}
   - component: {fileID: 1039000354}
+  - component: {fileID: 1039000355}
   m_Layer: 5
   m_Name: Capsule
   m_TagString: Enemy
@@ -878,6 +879,18 @@ MonoBehaviour:
   ArabaVarMi: 0
   cocuklar: []
   babalar: []
+--- !u!114 &1039000355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039000348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a47d3a0862154e41ada84acbf59f0c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjeYokEtme
 --- !u!1 &1260779650
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,6 +1047,7 @@ GameObject:
   - component: {fileID: 1643395186}
   - component: {fileID: 1643395187}
   - component: {fileID: 1643395188}
+  - component: {fileID: 1643395189}
   m_Layer: 0
   m_Name: Scriptim
   m_TagString: Untagged
@@ -1087,6 +1101,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   disaridan: {fileID: 0}
+--- !u!114 &1643395189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643395185}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a47d3a0862154e41ada84acbf59f0c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1785201854
 GameObject:
   m_ObjectHideFlags: 0
