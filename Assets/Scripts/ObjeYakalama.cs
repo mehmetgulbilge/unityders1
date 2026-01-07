@@ -8,10 +8,15 @@ public class ObjeYakalama : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
-        if (gameObject.CompareTag("Player"))
-            Debug.Log("Player");
-        else
-            Debug.Log("Not Player");
+        // Rigidbody ekle = gameObject.AddComponent<Rigidbody>();
+        Rigidbody ekle = gameObject.AddComponent(typeof(Rigidbody)) as Rigidbody;
+        ekle!.isKinematic = true;
+
+        // if (gameObject.CompareTag("Player"))
+        //     Debug.Log("Player");
+        // else
+        //     Debug.Log("Not Player");
+
         // gameObject.SetActive(true);
         // if (gameObject.activeSelf)
         //     Debug.Log(true);
