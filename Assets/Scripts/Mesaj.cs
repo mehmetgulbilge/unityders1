@@ -6,6 +6,7 @@ public class Mesaj : MonoBehaviour
     private void Start()
     {
         gameObject.SendMessage("MesajGonder");
+        gameObject.BroadcastMessage("MesajOku", "Bu bir mesaj", SendMessageOptions.DontRequireReceiver);
     }
 
     // Update is called once per frame
