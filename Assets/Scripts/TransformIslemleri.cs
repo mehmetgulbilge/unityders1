@@ -12,14 +12,23 @@ public class TransformIslemleri : MonoBehaviour
     private void Start()
     {
         BaslangicZamani = Time.time;
-        Debug.Log("Başlangıç Zamanı: " + BaslangicZamani + "");
-        Time.timeScale = 0.5f;
+
+        Vector3 birincipoz = new(4f, 2f, 3f);
+        Vector3 ikinciPoz = new(1f, 2f, 5f);
+
+        // print(Vector3.Max(birincipoz, ikinciPoz));
+        // print(Vector3.Min(birincipoz, ikinciPoz));
+        // print(Vector3.Scale(birincipoz, ikinciPoz));
+        print(birincipoz - ikinciPoz);
+        print(birincipoz + ikinciPoz);
+        print(birincipoz * 2f);
+        print(birincipoz / 2f);
     }
 
     // Update is called once per frame
     private void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, hedef.position, (Time.time - BaslangicZamani) * 3f);
+        // transform.position = Vector3.Lerp(transform.position, hedef.position, (Time.time - BaslangicZamani) * 3f);
 
         /*
          * Distance
