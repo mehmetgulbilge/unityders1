@@ -6,14 +6,21 @@ public class TransformIslemleri : MonoBehaviour
 
     public Transform hedef2;
 
+    private float BaslangicZamani;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
+        BaslangicZamani = Time.time;
+        Debug.Log("Başlangıç Zamanı: " + BaslangicZamani + "");
+        Time.timeScale = 0.5f;
     }
 
     // Update is called once per frame
     private void Update()
     {
+        transform.position = Vector3.Lerp(transform.position, hedef.position, (Time.time - BaslangicZamani) * 3f);
+
         /*
          * Distance
          */
