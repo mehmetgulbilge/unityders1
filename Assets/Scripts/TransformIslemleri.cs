@@ -2,41 +2,33 @@ using UnityEngine;
 
 public class TransformIslemleri : MonoBehaviour
 {
-    private Vector3 pozisyonum1;
+    public Transform hedef;
 
-    private Vector3 pozisyonum2;
+    public Transform hedef2;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
-        pozisyonum1 = new Vector3(1f, 2f, 1f);
-        pozisyonum2 = new Vector3(1f, 2f, 1f);
-
-        if (Equals(pozisyonum1, pozisyonum2))
-            Debug.Log("Pozisyonlar eşit");
-        else
-            Debug.Log("Pozisyonlar eşit değil");
-
-        if (Equals(pozisyonum1, pozisyonum2))
-            Debug.Log("Pozisyonlar eşit");
-        else
-            Debug.Log("Pozisyonlar eşit değil");
-
-        if (pozisyonum1 == pozisyonum2)
-            Debug.Log("Pozisyonlar eşit");
-        else
-            Debug.Log("Pozisyonlar eşit değil");
     }
 
     // Update is called once per frame
     private void Update()
     {
-        Debug.Log(transform.position.normalized);
+        /*
+         * Distance
+         */
+        // float distance = Vector3.Distance(hedef.position, transform.position);
+        // Debug.Log(distance);
 
-        // Debug.Log(Vector3.SqrMagnitude(transform.position));
-        // Debug.Log(Vector3.Magnitude(transform.position));
+        /*
+         * Angle
+         */
+        // Vector3 mesafe = hedef.position - transform.position;
 
-        // transform.Translate(Vector3.back * Time.deltaTime);
-        // transform.Translate(new Vector3(2f, 5f, 0f) * Time.deltaTime);
+        // float angle = Vector3.Angle(mesafe, transform.forward);
+        //
+        // Debug.Log(angle);
+        //
+        // if (angle < 5f) Debug.Log("Angle is less than 5 degrees");
     }
 }
