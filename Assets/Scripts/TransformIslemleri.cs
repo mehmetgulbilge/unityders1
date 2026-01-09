@@ -2,14 +2,19 @@ using UnityEngine;
 
 public class TransformIslemleri : MonoBehaviour
 {
-    public Transform parent;
-    public GameObject child;
+    public Transform hedef;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
-        if (parent && child) child.transform.SetParent(parent);
+        // transform.rotation = Quaternion.Euler(0f, 45f, 0f);
+
+        // transform.rotation = Quaternion.FromToRotation(Vector3.up, Vector3.forward);
+
+        transform.rotation = Quaternion.identity;
+
+        // if (parent && child) child.transform.SetParent(parent);
 
         // transform.position = new Vector3(transform.position.x, 3f, transform.position.z);
         // hedef.transform.Rotate(new Vector3(90f, 0f, 0f), Space.Self);
@@ -30,6 +35,15 @@ public class TransformIslemleri : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        // Vector3 fark = hedef.position - transform.position;
+
+        // hedef.rotation = Quaternion.LookRotation(fark, Vector3.up);
+
+        // float angle = Quaternion.Angle(hedef.rotation, transform.rotation);
+        // print(angle);
+
+        // hedef.rotation = Quaternion.Inverse(transform.rotation);
+
         // hedef2.transform.LookAt(hedef.position);
         // transform.Translate(transform.forward * (Time.deltaTime * 2f));
         // transform.Rotate(new Vector3(2f, 0f, 0f) * (Time.deltaTime * 2f));
