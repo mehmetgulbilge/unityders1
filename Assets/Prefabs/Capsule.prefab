@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7375553795218079866}
   - component: {fileID: 5003048167519910645}
   - component: {fileID: 3174202631600802898}
-  - component: {fileID: 8888795217883652971}
   m_Layer: 5
   m_Name: Capsule
   m_TagString: Enemy
@@ -134,15 +133,3 @@ MonoBehaviour:
   ArabaVarMi: 0
   cocuklar: []
   babalar: []
---- !u!114 &8888795217883652971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4279169118895781385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a47d3a0862154e41ada84acbf59f0c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObjeYokEtme
