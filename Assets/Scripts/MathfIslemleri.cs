@@ -10,6 +10,9 @@ public class MathfIslemleri : MonoBehaviour
         print(Mathf.Clamp(sayi, 0f, 100f));
         print(Mathf.Clamp01(sayi));
         print(Mathf.Clamp01(.5f));
+        
+        float[] degerler = { 1f, 2f, 3f, 4f };
+        print(Mathf.Max(degerler));
     }
 
     // Update is called once per frame
