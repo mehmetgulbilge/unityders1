@@ -226,7 +226,7 @@ Transform:
   m_GameObject: {fileID: 346386721}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.39951, y: -0, z: 0.70218}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -369,31 +369,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 391794420686926097, guid: 83ad8a48a6ff2463c9a21641ffdb4c6c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.56
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 391794420686926097, guid: 83ad8a48a6ff2463c9a21641ffdb4c6c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.36
+      value: 1.65
       objectReference: {fileID: 0}
     - target: {fileID: 391794420686926097, guid: 83ad8a48a6ff2463c9a21641ffdb4c6c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.7138896
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 391794420686926097, guid: 83ad8a48a6ff2463c9a21641ffdb4c6c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9793504
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 391794420686926097, guid: 83ad8a48a6ff2463c9a21641ffdb4c6c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 391794420686926097, guid: 83ad8a48a6ff2463c9a21641ffdb4c6c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 391794420686926097, guid: 83ad8a48a6ff2463c9a21641ffdb4c6c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.20217036
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 391794420686926097, guid: 83ad8a48a6ff2463c9a21641ffdb4c6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -405,7 +405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 391794420686926097, guid: 83ad8a48a6ff2463c9a21641ffdb4c6c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 23.328
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4279169118895781385, guid: 83ad8a48a6ff2463c9a21641ffdb4c6c, type: 3}
       propertyPath: m_Name
@@ -433,9 +433,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 693259090}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f55c9d236e2c457b9da7dd0e2821b64, type: 3}
+  m_Script: {fileID: 11500000, guid: 0eebb7f2919764d07ad5441f14d54d74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  saglik: 
+  para: 
+  level: 
+  dusman_saglik: 
+  dusman_para: 
+  dusman_level: 
 --- !u!1 &999728953
 GameObject:
   m_ObjectHideFlags: 0
