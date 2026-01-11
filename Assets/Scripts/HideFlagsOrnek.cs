@@ -1,6 +1,7 @@
 using UnityEngine;
 
 [AddComponentMenu("Scripts/Beni Ekle")]
+[RequireComponent(typeof(Rigidbody))]
 public class HideFlagsOrnnek : MonoBehaviour
 {
     [Header("Karakter Bilgileri")] public string saglik;
