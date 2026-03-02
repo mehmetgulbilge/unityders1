@@ -25,4 +25,9 @@ public class Canbari : MonoBehaviour
     {
         image.fillAmount -= 0.1f;
     }
+    
+    public void dropwdownSelected(int index)
+    {
+        Debug.Log(index);
+    }
 }
